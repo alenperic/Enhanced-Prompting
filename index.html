@@ -263,7 +263,6 @@ Expected Output: [sample output]</textarea>
                 copyAndOpenAI(openClaude, 'https://claude.ai/', 'Claude');
             });
             
-            // Preserve textarea content in localStorage
             const savedContent = localStorage.getItem('promptTemplate');
             if (savedContent) {
                 templateBox.value = savedContent;
